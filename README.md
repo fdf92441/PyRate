@@ -1,2 +1,2 @@
-# pyrate
+# PyRate
 Interest rate converter
