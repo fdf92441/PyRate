@@ -706,9 +706,6 @@ def inforamcion():
     QA = Quincena Anticipada
     DV = Diaria Vencida
     DA = Diaria Anticipada
-
-    Creado por Daniel Franco
-    fdf92444@gmail.com
     ''')
     tutorial2.grid(row=1, column=1, padx=5, pady=5)
     tutorial2.config(font='Helvetica 12')
@@ -770,9 +767,3 @@ if __name__ == "__main__":
     botonInfo.grid(row=0, column=5, padx=5, pady=5)
 
     root.mainloop()
-
-# Por Daniel Alejandro Franco Meneses
-# Versión 1.0 Se creo el cerebro de la conversión de tasas y se realizó varias pruebas para verificar su funcionamiento correcto.
-# Versión 1.1 Se creo la interfaz gráfica.
-# Versión 1.2 Se crea compatibilidad con mayúsculas y minúsculas.
-# Version 1.3 Se ingresa soporte a la tasa Quincenal y Diaria.
